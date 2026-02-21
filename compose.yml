@@ -1,0 +1,9 @@
+services:
+  back:
+    build:
+      dockerfile: Dockerfile
+    container_name: test
+    env_file:
+      - ./.env
+    ports:
+      - "8000:8000"

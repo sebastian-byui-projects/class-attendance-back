@@ -1,0 +1,4 @@
+pyotp~=2.9.0
+fastapi[standard]~=0.129.0
+pydantic~=2.12.5
+qrcode[pil]~=8.2
