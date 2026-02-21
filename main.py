@@ -38,7 +38,7 @@ def get_qr():
         url_env = "http://127.0.0.1:8000"
 
     frontend_url = f"{url_env}/verify"
-    contenido_qr = f"{frontend_url}?code={current_token}"
+    contenido_qr = f"{frontend_url}?token={current_token}"
 
     img = qrcode.make(contenido_qr)
 
